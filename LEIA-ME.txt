@@ -1,0 +1,42 @@
+STREAMBOX — COMO INSTALAR O APLICATIVO
+======================================
+
+Este pacote transforma o StreamBox em um aplicativo instalável
+no celular (Android e iPhone) e no computador.
+
+OPÇÃO 1 — Hospedar e instalar (recomendado)
+-------------------------------------------
+1. Envie estes arquivos para qualquer hospedagem gratuita
+   (Netlify Drop, Vercel, GitHub Pages, Cloudflare Pages).
+   Basta arrastar a pasta inteira em app.netlify.com/drop, por exemplo.
+2. Abra o link gerado no navegador do celular.
+3. No Android (Chrome): toque no menu ⋮ → "Instalar app" ou
+   "Adicionar à tela inicial".
+4. No iPhone (Safari): toque em Compartilhar →
+   "Adicionar à Tela de Início".
+5. O StreamBox aparecerá como um aplicativo com ícone próprio,
+   abrindo em tela cheia, sem barra de navegador.
+
+OPÇÃO 2 — Gerar um APK (Android)
+--------------------------------
+1. Hospede os arquivos (passo 1 da Opção 1).
+2. Acesse pwabuilder.com, cole o link do seu site.
+3. Clique em "Package for Android" e baixe o APK/AAB gerado.
+4. Instale o APK no celular (permita "fontes desconhecidas").
+
+OPÇÃO 3 — Testar localmente
+---------------------------
+Abra o arquivo index.html direto no navegador. Na primeira
+abertura, o app pede sua chave da API do TMDB (grátis em
+themoviedb.org → Configurações → API). Ela fica salva só
+no seu aparelho.
+
+OBSERVAÇÕES
+-----------
+- O emparelhamento com a TV aceita o código, mas a sincronização
+  de Minha Lista e progresso entre aparelhos só funciona na
+  versão online do app (que usa servidor).
+- Seus dados (lista, progresso, preferências) ficam salvos
+  no próprio aparelho.
+
+Desenvolvido por Vinícius Carvalho.
